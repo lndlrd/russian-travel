@@ -1,0 +1,30 @@
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 66px auto auto;
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        margin: 90px auto auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover {
+        margin: 92px auto auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        padding: 0 48px;
+    }
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+}
